@@ -7,10 +7,14 @@ import './form.css';
 export default function Form({ handleSubmit, handleChange, novaTarefa }) {
   return (
     <form onSubmit={handleSubmit} action="#" className="form">
-      <input onChange={handleChange} type="text" value={novaTarefa} />
-      <button type="submit">
-        <span><FaPlus /></span>
-      </button>
+      <div className="inputControl">
+        <input onChange={handleChange} type="text" value={novaTarefa} placeholder="" />
+        {/* eslint-disable-next-line */}
+        <label className="place">Sua Tarefa</label>
+        <button type="submit">
+          <span><FaPlus /></span>
+        </button>
+      </div>
     </form>
   );
 }

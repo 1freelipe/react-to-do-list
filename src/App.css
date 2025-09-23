@@ -7,7 +7,9 @@
 
 body {
   font-family: sans-serif;
-  background: #0a4f70;
+  background-image: url('/images/72079-wallpaper-4k-small-memory-4k-4k-wallpaper-artist-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 button {

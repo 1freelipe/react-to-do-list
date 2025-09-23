@@ -21,7 +21,9 @@ export default function Tarefas({
         ))}
       </ul>
       <span>
+        {tarefas.length > 0 && (
         <button onClick={handleKill} type="submit" className="btnKill">Apagar lista</button>
+        )}
       </span>
     </div>
   );
