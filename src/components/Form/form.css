@@ -1,0 +1,36 @@
+.form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type="text"] {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  min-width: 80%;
+}
+
+.form button[type="submit"] {
+  border: none;
+  height: 40px;
+  width: 40px;
+  background: #f04c64;
+  color: #fff;
+  transition: transform 0.5s ease;
+}
+
+.form button[type="submit"] span {
+  transition: transform 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.form button[type="submit"]:hover span {
+  transform: rotateZ(90deg);
+}
