@@ -51,6 +51,17 @@ export default class Main extends Component {
     });
   };
 
+  handleKill = () => {
+    const { tarefas } = this.state;
+
+    if (tarefas.length <= 0) return;
+
+    this.setState({
+      tarefas: [],
+      novaTarefa: '',
+    });
+  };
+
   handleSubmit = (e) => {
     e.preventDefault();
 
@@ -97,6 +108,7 @@ export default class Main extends Component {
           tarefas={tarefas}
           handleDelete={this.handleDelete}
           handleEdit={this.handleEdit}
+          handleKill={this.handleKill}
         />
 
       </div>
