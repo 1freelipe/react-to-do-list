@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-to-do-list/static/css/main.e5e6098c.css",
+    "main.js": "/react-to-do-list/static/js/main.b40b35cf.js",
+    "static/media/72079-wallpaper-4k-small-memory-4k-4k-wallpaper-artist-wallpaper.jpg": "/react-to-do-list/static/media/72079-wallpaper-4k-small-memory-4k-4k-wallpaper-artist-wallpaper.e69ca43d7718456c18f8.jpg",
+    "index.html": "/react-to-do-list/index.html",
+    "main.e5e6098c.css.map": "/react-to-do-list/static/css/main.e5e6098c.css.map",
+    "main.b40b35cf.js.map": "/react-to-do-list/static/js/main.b40b35cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5e6098c.css",
+    "static/js/main.b40b35cf.js"
+  ]
+}
